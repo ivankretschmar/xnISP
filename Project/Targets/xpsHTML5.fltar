@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
-  Version="1"
+  Version="2"
   Comment="HTML5 Output"
   Type="WebHelp2"
   Destinations=""
   GlossaryTermConversion="all"
-  MasterToc="/Project/TOCs/xpsHTML5Outputs.fltoc"
+  MasterToc="/Project/TOCs/Online Output.fltoc"
   ConditionTagExpression="include[General.Online]exclude[General.Print or PrintGuides.PDFGuideA or PrintGuides.PDFGuideB]"
   InsertMOTW="true"
   MasterPage="/Content/Resources/MasterPages/MasterPageWebsite.flmsp"
