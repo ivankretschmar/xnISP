@@ -32,10 +32,20 @@
     VolumeNumberReset="same"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/xnPOS P&amp;P Topics/Acceptable use.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Link="/Content/xnPOS P&amp;P Topics/Acceptable use.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/xnPOS P&amp;P Topics/Access control.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Link="/Content/xnPOS P&amp;P Topics/Access control.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl" />
   <TocEntry
     Title="Network Security policy"
     Link="/Content/xnPOS P&amp;P Topics/Network security.htm"
@@ -47,7 +57,8 @@
     ChapterNumber="1"
     SectionNumberReset="continue"
     VolumeNumberReset="same"
-    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl"
+    PageType="first" />
   <TocEntry
     Title="Change control policy"
     Link="/Content/xnPOS P&amp;P Topics/Change control.htm"
@@ -58,10 +69,16 @@
     ChapterNumber="3"
     SectionNumberReset="continue"
     VolumeNumberReset="same"
-    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl"
+    PageType="first" />
   <TocEntry
     Title="Secure development and testing policy"
-    Link="/Content/xnPOS P&amp;P Topics/Secure development and testing.htm" />
+    Link="/Content/xnPOS P&amp;P Topics/Secure development and testing.htm"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl" />
   <TocEntry
     Title="Glossary"
     Link="/Content/xnPOS P&amp;P Topics/policyGlossary.htm"
