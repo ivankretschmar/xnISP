@@ -855,6 +855,8 @@ tr
 ul
 {
 	list-style-image: url('../Images/Bullet1.png');
+	font-family: Calibri;
+	font-size: 11pt;
 }
 
 ul.FirstLevelLessIndentation

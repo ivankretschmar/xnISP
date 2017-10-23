@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
-  Version="1"
+  Version="2"
   Comment="New Target"
   Type="PDF"
   Destinations=""
@@ -23,7 +23,7 @@
     PageMode="UseOutlines"
     PageLayout="SinglePage"
     RequireOpenPassword="true"
-    OpenPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqbVM5zNZmESrUCRf/QEArAAAAAACAAAAAAAQZgAAAAEAACAAAACLLs4Ovy5SQCVsRYwBtGvZA9g9C0ov3KRHNk6WTHCm+wAAAAAOgAAAAAIAACAAAABDP1YV0044dfd6dbEBV6R9brSX6ikeO3CGFGDIIUSjUiAAAACNeGXNeipfK/xQwcwgmdHp+SPEhsy03945+WAm60gnEkAAAACH+9h+S7A9ftY/futKefWU5RdVAwVVdZqfRj7imYWM+Mx1xN9U0CRyNtf85dAkUud4q3tMnajL7wmacadidXkY"
+    OpenPassword="3dyfp5V3gZ1Hfi0eRQnZ8g=="
     CollapsedBookmarks="true" />
   <Glossaries>
     <Glossary

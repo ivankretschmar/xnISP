@@ -34,6 +34,9 @@
     Title="[%=System.LinkedTitle%]"
     Link="/Content/xnPOS P&amp;P Topics/Acceptable use.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/xnPOS P&amp;P Topics/Access control.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
     Title="Network Security policy"
     Link="/Content/xnPOS P&amp;P Topics/Network security.htm"
     BreakType="chapter"
