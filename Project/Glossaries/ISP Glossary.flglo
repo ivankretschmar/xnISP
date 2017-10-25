@@ -192,4 +192,24 @@
     <Definition
       Link="">The occurrence or development of an unwanted or unexpected situation which indicates a possible breach of XPS Information Security  policy or  a failure of information security controls which have a significant probability of compromising business operations.</Definition>
   </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term23"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Personally identifiable information</Term>
+    </Terms>
+    <Definition
+      Link="">Any information used to uniquely identify, contact, or locate a person.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term24"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>EUC</Term>
+    </Terms>
+    <Definition
+      Link="">End User Computing pertains to how users, with multiple devices, are able to access their applications &amp; data from anywhere at any time.</Definition>
+  </GlossaryEntry>
 </CatapultGlossary>

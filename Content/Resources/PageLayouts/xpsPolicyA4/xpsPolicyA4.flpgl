@@ -19,8 +19,22 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
-                        </xhtml:p>
+                        <xhtml:table xhtml:style="width: 100%; margin-left: 0; margin-right: auto;">
+                            <xhtml:col xhtml:style="width: 386px;" />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td><MadCap:variable xhtml:name="System.Title" />
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;"> Page <MadCap:variable xhtml:name="System.PageNumber" /> of <MadCap:variable xhtml:name="System.PageCount" /></xhtml:td>
+                                </xhtml:tr>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:colspan="2">
+                                        <xhtml:p xhtml:style="text-align: center;font-size: 10pt;">Once <xhtml:b>printed</xhtml:b>, this is an <xhtml:b>uncontrolled document</xhtml:b>. Refer to company Policy Portal for the latest version</xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
@@ -45,8 +59,27 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
-                        </xhtml:p>
+                        <xhtml:table xhtml:style="width: 100%; margin-left: 0; margin-right: auto;">
+                            <xhtml:col xhtml:style="width: 386px;" />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>Xn protel Systems</xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;">&#160;</xhtml:td>
+                                </xhtml:tr>
+                                <xhtml:tr>
+                                    <xhtml:td><MadCap:variable xhtml:name="System.Title" />
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;"> Page <MadCap:variable xhtml:name="System.PageNumber" /> of <MadCap:variable xhtml:name="System.PageCount" /></xhtml:td>
+                                </xhtml:tr>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:colspan="2">
+                                        <xhtml:p>&#160;</xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                        <xhtml:p xhtml:style="text-align: center;">Once <xhtml:b>printed</xhtml:b>, this is an <xhtml:b>uncontrolled document</xhtml:b>. Refer to company Policy Portal for the latest version</xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
