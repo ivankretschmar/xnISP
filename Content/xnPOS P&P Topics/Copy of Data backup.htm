@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="137" MadCap:lastWidth="696" class="reference" xml:lang="en-au" MadCap:fileTags="AuthorFileTags.Ian">
+    <head><title>Data backup and recovery policy</title>
+        <link href="../Resources/TableStyles/msStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/xpsStyles.css" rel="stylesheet" type="text/css" />&#160;</head>
+    <body>
+        <h1 MadCap:autonum="ISP01 &#160;">IT recovery policy</h1>
+        <table style="border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;mc-table-style: url('../Resources/TableStyles/msStyle.css');margin-left: 0;margin-right: auto;width: 697px;" class="TableStyle-msStyle" cellspacing="0">
+            <col style="width: 100px;" class="TableStyle-msStyle-Column-Column1" />
+            <col style="width: 229px;" class="TableStyle-msStyle-Column-Column1" />
+            <col style="width: 112px;" class="TableStyle-msStyle-Column-Column1" />
+            <col style="width: 127px;" class="TableStyle-msStyle-Column-Column1" />
+            <col style="width: 129px;" class="TableStyle-msStyle-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td style="font-weight: bold;font-family: Calibri;background-color: #e6e6fa;font-size: 9pt;" class="TableStyle-msStyle-BodyE-Column1-Body1">Version</td>
+                    <td style="font-weight: bold;font-family: Calibri;background-color: #e6e6fa;font-size: 9pt;" class="TableStyle-msStyle-BodyE-Column1-Body1">Approved by</td>
+                    <td style="font-weight: bold;font-family: Calibri;background-color: #e6e6fa;font-size: 9pt;" class="TableStyle-msStyle-BodyE-Column1-Body1">Approval date</td>
+                    <td style="font-weight: bold;font-family: Calibri;background-color: #e6e6fa;font-size: 9pt;" class="TableStyle-msStyle-BodyE-Column1-Body1">Effective date</td>
+                    <td style="font-weight: bold;font-family: Calibri;background-color: #e6e6fa;font-size: 9pt;" class="TableStyle-msStyle-BodyD-Column1-Body1">Next review date</td>
+                </tr>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td style="font-family: Calibri;font-size: 9pt;" class="TableStyle-msStyle-BodyB-Column1-Body1">1.0</td>
+                    <td style="font-family: Calibri;font-size: 9pt;" class="TableStyle-msStyle-BodyB-Column1-Body1">Group Technical Infrastructure Director </td>
+                    <td style="font-family: Calibri;font-size: 9pt;" class="TableStyle-msStyle-BodyB-Column1-Body1">1 January 2018</td>
+                    <td style="font-family: Calibri;font-size: 9pt;" class="TableStyle-msStyle-BodyB-Column1-Body1">1 January 2018</td>
+                    <td style="font-family: Calibri;font-size: 9pt;" class="TableStyle-msStyle-BodyA-Column1-Body1">1 July 2018</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 MadCap:autonum="1.1 "> Purpose</h2>
+        <p>The purpose of this standard is to enable the recovery of critical XPS services in a timely manner to minimise the effect of IT disruptions and to maintain resilience before, during, and after a disruption.</p>
+        <h2 MadCap:autonum="1.2 "> Scope</h2>
+        <h2 MadCap:autonum="1.3 ">Controls</h2>
+        <h2 MadCap:autonum="1.4 ">Business impact assessment</h2>
+        <p>XPS must perform a Business Impact Analysis ("BIA") at least on an annual basis, to define the business requirements for business application recoverability.</p>
+        <h2 MadCap:autonum="1.5 ">IT recovery plan</h2>
+        <h3 MadCap:autonum="1.5.1 &#160;">Based on the results of the BIA, the XPS&#160;Technical Services Department is responsible for development of an IT recovery plan&#160;(the "Recovery Plan") for the recovery of IT systems under their management following a disruption of IT services or disaster.</h3>
+        <h3 MadCap:autonum="1.5.2 &#160;">The recovery plan must allow the efficient recovery of XPS information systems within the predetermined <MadCap:glossaryTerm glossTerm="ISP Glossary.Term25">recovery point objective</MadCap:glossaryTerm> (RPO) and <MadCap:glossaryTerm glossTerm="Glossary.Term16">recovery time objective</MadCap:glossaryTerm> (RTO).</h3>
+        <h3 MadCap:autonum="1.5.3 &#160;">The recovery plan must employ appropriate recovery strategies to restore business functions in the required time following any disruption of service or disaster through an appropriate  combination of IT process workaround procedures, technical redundancy, and IT recovery planning. </h3>
+        <p>The plan must include:</p>
+        <ol style="list-style-type: lower-alpha;">
+            <li>Business applications recovery requirements (RTO / RPO for each application).</li>
+            <li>A list of all IT assets (Hardware and Software) required for delivery operation of each business application.</li>
+            <li>IT disruption and disaster declaration criteria necessary to invoke the ITRP.</li>
+            <li>Documentation of all IT personnel, backup systems, resources and assets necessary for recovery.</li>
+            <li>Documentation of the DR site, such as the information about interfaces with the production site, IT architecture diagrams and IT Asset Inventories.</li>
+            <li>Documentation of all roles, responsibilities, and agreements regarding actions during execution of the plan including internal personnel or any external party agreements. The ITRP must identify the role(s) which have the authority to enact the ITRP.</li>
+            <li>Detailed recovery procedures that list the individual steps to restore IT resources.</li>
+            <li>Documentation of explicit procedures for restoration of IT resources (e.g., all major services and systems, manual backup process documentation, logistics and action plans).</li>
+            <li>Description of how to execute the recovery processes, including how to deploy the recovery teams and monitor the recovery (ensuring recovery requirements are met). Recovery timelines and schedules must be also included.</li>
+            <li>Steps to fall back to production environment when DR is no longer required. A fall back timeline and schedule must be also included.</li>
+        </ol>
+        <h3 MadCap:autonum="1.5.4 &#160;">The Technical Services Department must ensure that the Recovery Plan is stored securely and backups must be stored at the recovery plan site.</h3>
+        <h3 MadCap:autonum="1.5.5 &#160;">The Technical Services Department must ensure all copies of the Recovery Plan are distributed appropriately when plans are updated.</h3>
+        <h3 MadCap:autonum="1.5.6 &#160;">The Recovery Plan must be reviewed and updated if appropriate, post testing or any major outage where recovery process</h3>
+        <p>&#160;</p>
+        <h2 MadCap:autonum="1.6 ">IT recovery plan maintenance</h2>
+        <h3 MadCap:autonum="1.6.1 &#160;">The Recovery Plan must be reviewed annually or when a significant change occurs in the XPS IT operating environment or IT architecture.</h3>
+        <h3 MadCap:autonum="1.6.2 &#160;">The Recovery Plan must be tested on an annual basis to ensure its operational capability, efficiency and appropriateness. An annual Recovery Plan test plan must be documented indicating:</h3>
+        <ol style="list-style-type: lower-alpha;">
+            <li>Type and scope of test (e.g., complete loss of the data centre, loss of specific applications).</li>
+            <li>Test objectives including the RTOs and RPOs to be achieved for the applications in scope.</li>
+            <li>Detailed testing schedule.</li>
+            <li>Roles and responsibilities for involved Departments and external stakeholders.</li>
+            <li>Notification of relevant contacts such as Departments, vendors and other third parties.</li>
+        </ol>
+        <h3 MadCap:autonum="1.6.3 &#160;">On completion of the test, there are reporting and other tasks that must be performed:</h3>
+        <ol style="list-style-type: lower-alpha;">
+            <li>Validate if objectives and success criteria have been met.</li>
+            <li>Determine what systems and/or processes failed and require a retest.</li>
+            <li>Create a Test Results Report to document the timelines and results, including lessons learnt and action items.
+</li>
+            <li>Update recovery plans as necessary and follow through on action items.</li>
+        </ol>
+        <h2 MadCap:autonum="1.7 ">Control exceptions</h2>
+        <p>As per the Information Security Policies, any policy exceptions must be formally documented and presented for review and sign-off by the Group Technical Infrastructure Director . All such exceptions are valid for a period of no longer than one year, upon which they will be subject to further review and formal acceptance.</p>
+        <h2 MadCap:autonum="1.8 ">Policy enforcement</h2>
+        <p>Violation of this policy may result in the termination of access and/or disciplinary action which may include termination for XPS employees, contractors and third party contracts and may result in further legal or criminal action.</p>
+        <h2 MadCap:autonum="1.9 ">Poicy review, approval and history</h2>
+        <p>This section details the initial review, approval and ongoing revision history of this Policy. A review of this Policy will be managed by the Responsible Officer on an annual basis.</p>
+        <p style="font-family: Calibri;">&#160;</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/msStyle.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-msStyle" cellspacing="0">
+            <col style="width: 210px;" class="TableStyle-msStyle-Column-Column1" />
+            <col style="width: 492px;" class="TableStyle-msStyle-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td class="TableStyle-msStyle-BodyD-Column1-Body1" colspan="2" style="background-color: #e6e6fa;font-family: Calibri;font-size: 12pt;"><b>Accountability</b>
+                    </td>
+                </tr>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td class="TableStyle-msStyle-BodyE-Column1-Body1" style="font-size: 11pt;font-family: Calibri;">Responsible Officer</td>
+                    <td class="TableStyle-msStyle-BodyD-Column1-Body1" style="font-size: 11pt;font-family: Calibri;">Group Technical Infrastructure Director </td>
+                </tr>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td class="TableStyle-msStyle-BodyB-Column1-Body1" style="font-size: 11pt;font-family: Calibri;">Email contact</td>
+                    <td class="TableStyle-msStyle-BodyA-Column1-Body1" style="font-size: 11pt;font-family: Calibri;">mike.hall@xnprotel.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="mc-table-style: url('../Resources/TableStyles/msStyle.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-msStyle" cellspacing="0">
+            <col style="width: 211px;" class="TableStyle-msStyle-Column-Column1" />
+            <col style="width: 489px;" class="TableStyle-msStyle-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td class="TableStyle-msStyle-BodyD-Column1-Body1" colspan="2" style="background-color: #e6e6fa;font-family: Calibri;font-size: 12pt;"><b>Supporting Information</b>
+                    </td>
+                </tr>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td class="TableStyle-msStyle-BodyE-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">Parent Policy</td>
+                    <td class="TableStyle-msStyle-BodyD-Column1-Body1" style="font-family: Calibri;font-size: 11pt;"> Nil</td>
+                </tr>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td class="TableStyle-msStyle-BodyE-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">Supporting Documents</td>
+                    <td class="TableStyle-msStyle-BodyD-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">Nil</td>
+                </tr>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td class="TableStyle-msStyle-BodyE-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">Related Documents</td>
+                    <td class="TableStyle-msStyle-BodyD-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">Nil</td>
+                </tr>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td class="TableStyle-msStyle-BodyB-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">Superseded Documents</td>
+                    <td class="TableStyle-msStyle-BodyA-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">Nil</td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="mc-table-style: url('../Resources/TableStyles/msStyle.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-msStyle" cellspacing="0">
+            <col style="font-family: Calibri;width: 211px;" class="TableStyle-msStyle-Column-Column1" />
+            <col style="font-family: Calibri;width: 491px;" class="TableStyle-msStyle-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td class="TableStyle-msStyle-BodyD-Column1-Body1" colspan="2" style="background-color: #e6e6fa;font-size: 12pt;"><b style="font-family: Calibri;">Terms and Definitions</b>
+                    </td>
+                </tr>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td class="TableStyle-msStyle-BodyA-Column1-Body1" style="font-family: Calibri;font-size: 11pt;" colspan="2">For all key terms and definitions referred to in this Policy, please refer to the ISP glossary</td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="mc-table-style: url('../Resources/TableStyles/msStyle.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-msStyle" cellspacing="0">
+            <col style="width: 68px;" class="TableStyle-msStyle-Column-Column1" />
+            <col style="width: 232px;" class="TableStyle-msStyle-Column-Column1" />
+            <col style="width: 109px;" class="TableStyle-msStyle-Column-Column1" />
+            <col style="width: 105px;" class="TableStyle-msStyle-Column-Column1" />
+            <col style="width: 20%;" class="TableStyle-msStyle-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td colspan="5" style="background-color: #e6e6fa;font-family: Calibri;font-size: 12pt;" class="TableStyle-msStyle-BodyD-Column1-Body1"><b>Revision History</b>
+                    </td>
+                </tr>
+                <tr style="height: 17px;" class="TableStyle-msStyle-Body-Body1">
+                    <td style="font-size: 10pt;font-weight: bold;font-family: Calibri;background-color: #e6e6fa;" class="TableStyle-msStyle-BodyE-Column1-Body1">Version</td>
+                    <td style="font-size: 10pt;font-weight: bold;font-family: Calibri;background-color: #e6e6fa;" class="TableStyle-msStyle-BodyE-Column1-Body1">Approved by</td>
+                    <td style="font-size: 10pt;font-weight: bold;font-family: Calibri;background-color: #e6e6fa;" class="TableStyle-msStyle-BodyE-Column1-Body1">Approval date</td>
+                    <td style="font-size: 10pt;font-weight: bold;font-family: Calibri;background-color: #e6e6fa;" class="TableStyle-msStyle-BodyE-Column1-Body1">Effective date</td>
+                    <td style="font-size: 10pt;font-weight: bold;font-family: Calibri;background-color: #e6e6fa;" class="TableStyle-msStyle-BodyD-Column1-Body1">Modification</td>
+                </tr>
+                <tr class="TableStyle-msStyle-Body-Body1">
+                    <td style="font-size: 10pt;font-family: Calibri;" class="TableStyle-msStyle-BodyB-Column1-Body1">1.0</td>
+                    <td style="font-size: 10pt;font-family: Calibri;" class="TableStyle-msStyle-BodyB-Column1-Body1">Group Technical Infrastructure Director</td>
+                    <td style="font-size: 10pt;font-family: Calibri;" class="TableStyle-msStyle-BodyB-Column1-Body1">1 October 2017</td>
+                    <td style="font-size: 10pt;font-family: Calibri;" class="TableStyle-msStyle-BodyB-Column1-Body1">1 January 2018</td>
+                    <td style="font-size: 10pt;font-family: Calibri;" class="TableStyle-msStyle-BodyA-Column1-Body1">New document</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
