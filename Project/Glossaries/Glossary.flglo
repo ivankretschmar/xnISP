@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultGlossary>
   <GlossaryEntry
     glossTerm="Glossary.Term0">
@@ -135,5 +135,12 @@
     </Terms>
     <Definition
       Link="">A special target that lets you build and/or publish multiple other targets in a single group (or "batch"). You can schedule batches to run at any time.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term16">
+    <Terms>
+      <Term>recovery time objectives</Term>
+    </Terms>
+    <Definition>The maximum tolerable length of time that a computer, system, network, or application can be down after a failure or disaster occurs.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>

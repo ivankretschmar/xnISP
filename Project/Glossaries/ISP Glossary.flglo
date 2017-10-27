@@ -139,12 +139,14 @@
       Link="">Portable electronic storage media such as magnetic, optical, and flash memory devices, which can be inserted into and removed from a computing device. Examples include external hard disks or solid-state drives, floppy disks, zip disks, optical disks, tapes, memory cards, flash drives, and similar USB storage devices.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
-    glossTerm="ISP Glossary.Term17">
+    glossTerm="ISP Glossary.Term17"
+    Stem=""
+    IgnoreCase="false">
     <Terms>
       <Term>DC</Term>
     </Terms>
     <Definition
-      Link="">(See Data centre)</Definition>
+      Link="">(See data centre)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="ISP Glossary.Term18">
@@ -211,5 +213,42 @@
     </Terms>
     <Definition
       Link="">End User Computing pertains to how users, with multiple devices, are able to access their applications &amp; data from anywhere at any time.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term25">
+    <Terms>
+      <Term>Recovery point objective</Term>
+    </Terms>
+    <Definition>The maximum targeted period in which data might be lost from an IT service due to a major incident.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term26"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>RPO</Term>
+    </Terms>
+    <Definition
+      Link="">(See recovery point objective)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term27"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>RTO</Term>
+    </Terms>
+    <Definition
+      Link="">(See recovery toint objective)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term28"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Recovery time objective</Term>
+    </Terms>
+    <Definition
+      Link="">The maximum tolerable length of time that a computer, system, network, or application can be down after a failure or disaster occurs.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>
