@@ -251,4 +251,45 @@
     <Definition
       Link="">The maximum tolerable length of time that a computer, system, network, or application can be down after a failure or disaster occurs.</Definition>
   </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term29"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Asset</Term>
+    </Terms>
+    <Definition
+      Link="">A tangible or intangible item of economic value owned by XPS.  Examples  include equipment, software, intellectual property or other capital assets</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term30"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Obsolete asset</Term>
+    </Terms>
+    <Definition
+      Link="">An Asset that can no loinger be used because it is no longer compatible with other Assets or systems, or supportable in
+ongoing use.  The Asset may no longer operate and repairs are not cost-effective.  The Asset may no longer be used safely.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term31"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Surplus asset</Term>
+    </Terms>
+    <Definition
+      Link="">An Asset that, while neither an Unusable Asset nor an Obsolete Asset, will not be used in the foreseeable future.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term32"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Unusable asset</Term>
+    </Terms>
+    <Definition
+      Link="">An Asset having no further use or value to a business unit in its present state (including those Assets that might be useful to another business unit or external entity).</Definition>
+  </GlossaryEntry>
 </CatapultGlossary>
