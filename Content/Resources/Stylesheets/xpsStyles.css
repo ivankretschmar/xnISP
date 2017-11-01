@@ -1123,11 +1123,11 @@ ul ul
 
 	p.Figure
 	{
-		color: #696969;
-		font-size: 0.90em;
 		font-style: italic;
 		mc-auto-number-format: 'CH:Figure {chapnum}-{n+} ';
 		mc-auto-number-class: FigureNum;
+		color: #000000;
+		font-size: 9pt;
 	}
 
 	p.FrameHeaderText
