@@ -292,4 +292,31 @@ ongoing use.  The Asset may no longer operate and repairs are not cost-effective
     <Definition
       Link="">An Asset having no further use or value to a business unit in its present state (including those Assets that might be useful to another business unit or external entity).</Definition>
   </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term33"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Computer security incidents</Term>
+    </Terms>
+    <Definition
+      Link="">Events where there is suspicion that confidentiality, integrity or accessibility of the company’s data has been compromised. Computer systems or infrastructure may have been attacked or are believed to be vulnerable to attack.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term34"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Espionage</Term>
+    </Terms>
+    <Definition
+      Link="">Stealing information to subvert the interests of a corporation or government entity</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term35">
+    <Terms>
+      <Term>SIEM</Term>
+    </Terms>
+    <Definition>Security Event and Incident Management</Definition>
+  </GlossaryEntry>
 </CatapultGlossary>
