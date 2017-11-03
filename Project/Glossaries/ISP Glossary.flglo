@@ -319,4 +319,56 @@ ongoing use.  The Asset may no longer operate and repairs are not cost-effective
     </Terms>
     <Definition>Security Event and Incident Management</Definition>
   </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term36"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Public information</Term>
+    </Terms>
+    <Definition
+      Link="">Information that may be broadly distributed without causing damage to the organisation, its employees and stakeholders.  
+Documents containing public information may be disclosed or passed to persons outside the organisation.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term37"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Restricted information</Term>
+    </Terms>
+    <Definition
+      Link="">Information appropriate for internal use only. Examples include Departmental memos, information on internal bulletin boards, general policies and operating procedures, work instructions and/or guidelines, paper telephone phone and email directories, transaction data, productivity reports, internal vacancy notices, intranet web pages and accounting information.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term38"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Client documents</Term>
+    </Terms>
+    <Definition
+      Link="">Client reports or financial statistics. Examples include any client reports, contracts, agreements, terms of service or service level agreements.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term39"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Confidential information</Term>
+    </Terms>
+    <Definition
+      Link="">Highly sensitive or valuable information including anything that might be considered directly damaging to the company's  reputation.  Examples include commerically or technically sensitive information, sensitive operating policies and procedures and personally identifiable  information.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term40"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Strictly confidential information</Term>
+    </Terms>
+    <Definition
+      Link="">Highly sensitive or valuable information, or anything that would be considered directly damaging to the company's reputation.  
+Examples include credit card data, social security numbers and protected health information.</Definition>
+  </GlossaryEntry>
 </CatapultGlossary>
