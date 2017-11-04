@@ -40,7 +40,7 @@
       <Term>Information assets</Term>
     </Terms>
     <Definition
-      Link="">Items or bodies of information, an information storage system, or an information processing system which is of strategic value to XPS.</Definition>
+      Link="">Items or bodies of information, any information storage system, or any information processing system which is of strategic value to XPS.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="ISP Glossary.Term5">
@@ -370,5 +370,25 @@ Documents containing public information may be disclosed or passed to persons ou
     <Definition
       Link="">Highly sensitive or valuable information, or anything that would be considered directly damaging to the company's reputation.  
 Examples include credit card data, social security numbers and protected health information.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term41"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>IT assets</Term>
+    </Terms>
+    <Definition
+      Link="">Any XPS owned or managed data link, device, operating system, firmware, application, database, or service that connects to the XPS enterprise.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term42"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>ICT</Term>
+    </Terms>
+    <Definition
+      Link="">Information and communications technology.  The convergence of several technologies and the use of common transmission lines carrying diverse data and communication types and formats.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>

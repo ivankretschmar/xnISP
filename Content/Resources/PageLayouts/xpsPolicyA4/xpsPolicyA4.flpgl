@@ -13,7 +13,7 @@
         </Frame>
         <Frame Flow="body" Y="57px" Bottom="72px" X="53px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="645px" Height="898px">
         </Frame>
-        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="980px" Width="698px" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#ed1c24" TextAlign="right">
+        <Frame Flow="footer" Height="62px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="965px" Width="698px" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#ed1c24" TextAlign="right">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:head>
@@ -24,13 +24,16 @@
                             <xhtml:col />
                             <xhtml:tbody>
                                 <xhtml:tr>
-                                    <xhtml:td><MadCap:variable xhtml:name="System.Title" />
-                                    </xhtml:td>
-                                    <xhtml:td xhtml:style="text-align: right;"> Page <MadCap:variable xhtml:name="System.PageNumber" /> of <MadCap:variable xhtml:name="System.PageCount" /></xhtml:td>
+                                    <xhtml:td>Xn protel Systems - <MadCap:variable xhtml:name="System.Title" /></xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;">CONFIDENTIAL</xhtml:td>
                                 </xhtml:tr>
                                 <xhtml:tr>
-                                    <xhtml:td xhtml:colspan="2">
-                                        <xhtml:p xhtml:style="text-align: center;font-size: 10pt;">Once <xhtml:b>printed</xhtml:b>, this is an <xhtml:b>uncontrolled document</xhtml:b>. Refer to company Policy Portal for the latest version</xhtml:p>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;"> <xhtml:b>Page</xhtml:b> <MadCap:variable xhtml:name="System.PageNumber" /> of <MadCap:variable xhtml:name="System.PageCount" /></xhtml:td>
+                                </xhtml:tr>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:colspan="2" xhtml:style="font-size: 8pt;">
+                                        <xhtml:p xhtml:style="text-align: center;font-size: 9pt;">Once <xhtml:b>Printed</xhtml:b>, this is an <xhtml:b>Uncontrolled Document</xhtml:b>. Refer to company policy portal for the latest version</xhtml:p>
                                     </xhtml:td>
                                 </xhtml:tr>
                             </xhtml:tbody>
@@ -53,7 +56,7 @@
         </Frame>
         <Frame Flow="body" Y="222px" Bottom="72px" X="53px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="645px" Height="733px" FlowIndex="1">
         </Frame>
-        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="980px" Width="698px" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#ed1c24" TextAlign="right">
+        <Frame Flow="footer" Height="65px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="962px" Width="698px" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#ed1c24" TextAlign="right">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:head>
@@ -64,22 +67,20 @@
                             <xhtml:col />
                             <xhtml:tbody>
                                 <xhtml:tr>
-                                    <xhtml:td>Xn protel Systems</xhtml:td>
-                                    <xhtml:td xhtml:style="text-align: right;">&#160;</xhtml:td>
+                                    <xhtml:td>Xn protel Systems - <MadCap:variable xhtml:name="System.Title" /></xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;">CONFIDENTIAL</xhtml:td>
                                 </xhtml:tr>
                                 <xhtml:tr>
-                                    <xhtml:td><MadCap:variable xhtml:name="System.Title" />
-                                    </xhtml:td>
-                                    <xhtml:td xhtml:style="text-align: right;"> Page <MadCap:variable xhtml:name="System.PageNumber" /> of <MadCap:variable xhtml:name="System.PageCount" /></xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;"> <xhtml:b>Page</xhtml:b> <MadCap:variable xhtml:name="System.PageNumber" /> of <MadCap:variable xhtml:name="System.PageCount" /></xhtml:td>
                                 </xhtml:tr>
                                 <xhtml:tr>
-                                    <xhtml:td xhtml:colspan="2">
-                                        <xhtml:p>&#160;</xhtml:p>
+                                    <xhtml:td xhtml:colspan="2" xhtml:style="font-size: 8pt;">
+                                        <xhtml:p xhtml:style="text-align: center;font-size: 9pt;">Once <xhtml:b>Printed</xhtml:b>, this is an <xhtml:b>Uncontrolled Document</xhtml:b>. Refer to company policy portal for the latest version</xhtml:p>
                                     </xhtml:td>
                                 </xhtml:tr>
                             </xhtml:tbody>
                         </xhtml:table>
-                        <xhtml:p xhtml:style="text-align: center;">Once <xhtml:b>printed</xhtml:b>, this is an <xhtml:b>uncontrolled document</xhtml:b>. Refer to company Policy Portal for the latest version</xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>

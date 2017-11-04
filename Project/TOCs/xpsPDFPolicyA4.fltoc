@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
-  Version="1">
+  Version="1"
+  fileTags="AuthorFileTags.Ian">
   <TocEntry
     Title="policyTitlePage"
     Link="/Content/xnPOS P&amp;P Topics/policyTitlePage.htm"
@@ -20,7 +21,7 @@
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/xpsA4/xpsTOCA4.flpgl" />
   <TocEntry
-    Title="xn Information Security Policy"
+    Title="Xn Information Security Program"
     Link="/Content/xnPOS P&amp;P Topics/xnISP.htm"
     BreakType="chapter"
     StartSection="false"
@@ -47,18 +48,13 @@
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl" />
   <TocEntry
-    Title="Network Security policy"
-    Link="/Content/xnPOS P&amp;P Topics/Network security.htm"
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/xnPOS P&amp;P Topics/Data backup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
+    PageType="first"
     StartSection="false"
     PageNumberReset="continue"
-    PageNumber="1"
-    ChapterNumberReset="reset"
-    ChapterNumber="1"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl"
-    PageType="first" />
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl" />
   <TocEntry
     Title="Change control policy"
     Link="/Content/xnPOS P&amp;P Topics/Change control.htm"
@@ -72,8 +68,37 @@
     PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl"
     PageType="first" />
   <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/xnPOS P&amp;P Topics/Incident response policy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/xnPOS P&amp;P Topics/Incident response plan.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl" />
+  <TocEntry
+    Title="Network Security policy"
+    Link="/Content/xnPOS P&amp;P Topics/Network security.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageNumber="1"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl"
+    PageType="first" />
+  <TocEntry
     Title="Secure development and testing policy"
-    Link="/Content/xnPOS P&amp;P Topics/Secure development and testing.htm"
+    Link="/Content/xnPOS P&amp;P Topics/Secure software development and testing.htm"
     BreakType="chapter"
     PageType="first"
     StartSection="false"
@@ -82,7 +107,8 @@
   <TocEntry
     Title="Glossary"
     Link="/Content/xnPOS P&amp;P Topics/policyGlossary.htm"
-    BreakType="chapter"
+    BreakType="pageLayout"
     StartSection="false"
-    PageNumberReset="continue" />
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/xpsA4/xpsGlossaryA4.flpgl" />
 </CatapultToc>

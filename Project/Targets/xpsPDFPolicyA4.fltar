@@ -10,7 +10,7 @@
   GetLatestBeforeCompile="true"
   ConditionTagExpression="include[General.Print] exclude[General.Online] "
   PatchHeadingLevels="false"
-  GlossaryTermConversion="first"
+  GlossaryTermConversion="marked"
   TargetLanguage="en-au">
   <PrintedOutput
     CollapseMargins="true" />
@@ -24,10 +24,9 @@
     PageLayout="SinglePage"
     RequireOpenPassword="true"
     OpenPassword="3dyfp5V3gZ1Hfi0eRQnZ8g=="
-    CollapsedBookmarks="true" />
+    CollapsedBookmarks="true"
+    ShowUsedBookmarks="false" />
   <Glossaries>
-    <Glossary
-      Link="/Project/Glossaries/Glossary.flglo" />
     <Glossary
       Link="/Project/Glossaries/ISP Glossary.flglo" />
   </Glossaries>
