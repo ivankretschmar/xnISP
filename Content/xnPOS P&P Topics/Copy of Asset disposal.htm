@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="137" MadCap:lastWidth="696" class="reference" xml:lang="en-au" MadCap:fileTags="AuthorFileTags.Ian">
-    <head><title>Data backup policy</title>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="756" MadCap:lastWidth="624" class="reference" xml:lang="en-au" MadCap:fileTags="AuthorFileTags.Ian">
+    <head><title>Data classificaiton policy</title>
         <link href="../Resources/TableStyles/msStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../Resources/Stylesheets/xpsStyles.css" rel="stylesheet" type="text/css" />&#160;</head>
     <body>
-        <h1 MadCap:autonum="ISP01 &#160;">Data backup</h1>
+        <h1 MadCap:autonum="ISP01 &#160;">Data classification policy</h1>
         <table style="border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;mc-table-style: url('../Resources/TableStyles/msStyle.css');margin-left: 0;margin-right: auto;width: 697px;" class="TableStyle-msStyle" cellspacing="0">
             <col style="width: 100px;" class="TableStyle-msStyle-Column-Column1" />
             <col style="width: 229px;" class="TableStyle-msStyle-Column-Column1" />
@@ -22,57 +22,29 @@
                 <tr class="TableStyle-msStyle-Body-Body1">
                     <td style="font-family: Calibri;font-size: 9pt;" class="TableStyle-msStyle-BodyB-Column1-Body1">1.0</td>
                     <td style="font-family: Calibri;font-size: 9pt;" class="TableStyle-msStyle-BodyB-Column1-Body1">Group Technical Infrastructure Director </td>
-                    <td style="font-family: Calibri;font-size: 9pt;" class="TableStyle-msStyle-BodyB-Column1-Body1">1 January 2018</td>
-                    <td style="font-family: Calibri;font-size: 9pt;" class="TableStyle-msStyle-BodyB-Column1-Body1">1 January 2018</td>
+                    <td style="font-family: Calibri;font-size: 9pt;" class="TableStyle-msStyle-BodyB-Column1-Body1">20 October 2016</td>
+                    <td style="font-family: Calibri;font-size: 9pt;" class="TableStyle-msStyle-BodyB-Column1-Body1">1 November 2016</td>
                     <td style="font-family: Calibri;font-size: 9pt;" class="TableStyle-msStyle-BodyA-Column1-Body1">1 July 2018</td>
                 </tr>
             </tbody>
         </table>
-        <h2 MadCap:autonum="1.1 "> Purpose</h2>
-        <p colspan="4">The backup of mission critical information is often the last line of defence in the event of accidental or malicious loss or the unintended modification of application data and infrastructure configurations. The purpose of this policy is to set out a baseline requirement for the backup of XPS&#160;information systems and data.
-</p>
-        <h2 MadCap:autonum="1.2 ">Scope</h2>
-        <p>This Policy applies to all XPS IT systems and end-user computing devices, including non-production systems that contain information that would impact XPS in the event data was lost. This Policy does not cover data availability using replication techniques, such as database synchronisation between production and disaster recovery facilities or data deduplication. </p>
-        <h2 MadCap:autonum="1.3 ">Controls</h2>
-        <h3 MadCap:autonum="1.3.1 &#160;">Scheduling considerations</h3>
-        <ol style="list-style-type: lower-alpha;">
-            <li><span style="font-size: 10pt;">Backups must be scheduled according to the availability requirements of the information that is being backed-up. A backup schedule must be documented and maintained for all XPS hosted applications. Table 1 documents the minimum backup schedules for the identified  data types.</span>
-            </li>
-            <li style="font-family: Calibri;"><span style="font-size: 10pt;">The backup requirements for information systems and data must be documented and communicated to implementation and support teams for inclusion within operational procedures before systems entering production.</span>
-            </li>
-        </ol>
-        <h3 MadCap:autonum="1.3.2 &#160;">Backup verification and failure investigation</h3>
-        <ol style="list-style-type: lower-alpha;">
-            <li>A sample of backup jobs must be verified as part of the process to maintain the integrity of the information being backed up, in a manner commensurate with the reliability of the backup media.</li>
-            <li>XPS makes regular backup recovery tests in order to verify that online backups can be recovered and that consistnecy exists between file data and database information.</li>
-            <li>Backup failure reports must be produced, reviewed and acted upon within a reasonable time-frame to ensure successful completion.</li>
-        </ol>
-        <h3 MadCap:autonum="1.3.3 &#160;">Protection of backups and backup media</h3>
-        <ol style="list-style-type: lower-alpha;">
-            <li>Backup media is regarded with an equivalent security classification level as the source information system. Sensitive data must be appropriately encrypted (e.g., at the database or file level) when stored on backup media.</li>
-            <li>Access to backup media must be restricted to authorised personnel only.</li>
-        </ol>
-        <h3 MadCap:autonum="1.3.4 &#160;">Retention and disposal of backups and backup media</h3>
-        <ol style="list-style-type: lower-alpha;">
-            <li>Backup media must be retained in line with the IT recovery, data retention and record management requirements where applicable.</li>
-            <li>Destruction (TBC)</li>
-        </ol>
-        <h3 MadCap:autonum="1.3.5 &#160;">Backup media locations</h3>
-        <ol style="list-style-type: lower-alpha;">
-            <li>
-                <p>Backup media containing sensitive information must only be transported offsite with appropriate physical protection, in a secure container, within a secure vehicle, following an auditable and verifiable process.</p>
-            </li>
-            <li>
-                <p>The frequency of sending backup media off-site must be documented and justified in the backup schedule. Consideration of the frequency should take into account the importance and recovery requirements of the data.</p>
-            </li>
-            <li>Backup media must be stored in a safe and secure physical location to ensure that media is protected from unauthorised access, modification or destruction. This includes:<ul><li style="font-size: 11pt;">Off-site in relation to the XPS data centre and stored at a location with strict physical security in place.</li><li style="font-size: 11pt;">In a temperature controlled environment employing fire prevention suppression mechanisms</li></ul></li>
-        </ol>
-        <h2 MadCap:autonum="1.4 ">Control exceptions</h2>
+        <h2 MadCap:autonum="1.1 ">  Preamble</h2>
+        <p>Responsible management of IT assets is a fundamental requirement of any corporate Information Security Program. Xn protel System ("XPS") shall employ robust IT asset management processes to ensure IT assets are identified, inventoried, maintained and eventually destroyed.</p>
+        <p>In the context of this Policy, an IT asset is any XPS owned or managed data link, device, operating system, application, database or middleware service that connects to the XPS enterprise network. </p>
+        <h2 MadCap:autonum="1.2 ">Purpose</h2>
+        <p>This document sets out the Data Classification Policy for the XPS&#160;Information Security Program ("xnISP"). Data classification is central to the xnISP.  By understanding, and classifying Data according to its value, legal requirements, sensitivity, and importance to customers, we can ensure that appropriate protection is provided.</p>
+        <h2 MadCap:autonum="1.3 ">Scope</h2>
+        <p>This Policy applies to all data or information that is created, collected, stored or processed by XPS, in electronic or non-electronic formats.</p>
+        <p>This Policy applies to anyone who works for XPS, including permanent employees, fixed term employees, agency workers, temporary staff, consultants or contractors and third parties ("Data Users"). </p>
+        <h2 MadCap:autonum="1.4 ">Controls</h2>
+        <h2 MadCap:autonum="1.5 ">Control exceptions</h2>
         <p>As per the Information Security Policies, any policy exceptions must be formally documented and presented for review and sign-off by the Group Technical Infrastructure Director . All such exceptions are valid for a period of no longer than one year, upon which they will be subject to further review and formal acceptance.</p>
-        <h2 MadCap:autonum="1.5 ">Policy enforcement</h2>
+        <h2 MadCap:autonum="1.6 ">Policy enforcement</h2>
         <p>Violation of this policy may result in the termination of access and/or disciplinary action which may include termination for XPS employees, contractors and third party contracts and may result in further legal or criminal action.</p>
-        <h2 MadCap:autonum="1.6 ">Poicy review, approval and history</h2>
+        <h2 MadCap:autonum="1.7 ">Poicy review, approval and history</h2>
         <p>This section details the initial review, approval and ongoing revision history of this Policy. A review of this Policy will be managed by the Responsible Officer on an annual basis.</p>
+        <p style="font-family: Calibri;">&#160;</p>
+        <p style="font-family: Calibri;">&#160;</p>
         <p style="font-family: Calibri;">&#160;</p>
         <table style="mc-table-style: url('../Resources/TableStyles/msStyle.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-msStyle" cellspacing="0">
             <col style="width: 210px;" class="TableStyle-msStyle-Column-Column1" />

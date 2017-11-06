@@ -49,12 +49,10 @@
     PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/xnPOS P&amp;P Topics/Data backup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    BreakType="chapter"
-    PageType="first"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl" />
+    Link="/Content/xnPOS P&amp;P Topics/Data backup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/xnPOS P&amp;P Topics/IT recovery.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
     Title="Change control policy"
     Link="/Content/xnPOS P&amp;P Topics/Change control.htm"

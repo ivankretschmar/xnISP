@@ -391,4 +391,24 @@ Examples include credit card data, social security numbers and protected health 
     <Definition
       Link="">Information and communications technology.  The convergence of several technologies and the use of common transmission lines carrying diverse data and communication types and formats.</Definition>
   </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term43"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>System owners</Term>
+    </Terms>
+    <Definition
+      Link="">Individuals or Departments with approved  management responsibility for the support or ongoing use of company IT assets.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term44"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Business owners</Term>
+    </Terms>
+    <Definition
+      Link="">XPS business entities with the financial property rights to IT assets.</Definition>
+  </GlossaryEntry>
 </CatapultGlossary>
