@@ -13,19 +13,27 @@
   GlossaryTermConversion="marked"
   TargetLanguage="en-au">
   <PrintedOutput
-    CollapseMargins="true" />
+    CollapseMargins="true"
+    GenerateIndexProxy="false"
+    GenerateTOCProxy="false" />
   <DocumentProperties
     Author="Ian Van Kretschmar"
     Title="XPS Information Security Policy"
     Subject="Corporate governance &amp; compliance policy, procedures and standards" />
   <PDF
     InitialMagnification="100"
-    PageMode="UseOutlines"
+    PageMode="UseNone"
     PageLayout="SinglePage"
     RequireOpenPassword="true"
     OpenPassword="3dyfp5V3gZ1Hfi0eRQnZ8g=="
     CollapsedBookmarks="true"
-    ShowUsedBookmarks="false" />
+    ShowUsedBookmarks="true"
+    TitleBar="DocumentTitle"
+    RestrictPermissions="true"
+    RestrictPrinting="false"
+    RestrictEditing="true"
+    ModifyPassword="t+shhF79U8F3nv5/Vy/+rw=="
+    RestrictCopying="false" />
   <Glossaries>
     <Glossary
       Link="/Project/Glossaries/ISP Glossary.flglo" />
