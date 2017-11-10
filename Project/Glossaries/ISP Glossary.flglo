@@ -411,4 +411,14 @@ Examples include credit card data, social security numbers and protected health 
     <Definition
       Link="">XPS business entities with the financial property rights to IT assets.</Definition>
   </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="ISP Glossary.Term45"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>CSIRT</Term>
+    </Terms>
+    <Definition
+      Link="">Computer Security Incident Response Team</Definition>
+  </GlossaryEntry>
 </CatapultGlossary>
