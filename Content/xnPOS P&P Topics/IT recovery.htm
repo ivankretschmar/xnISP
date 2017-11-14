@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="862" MadCap:lastWidth="645" class="reference" xml:lang="en-au" MadCap:fileTags="AuthorFileTags.Ian">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="855" MadCap:lastWidth="645" class="reference" xml:lang="en-au" MadCap:fileTags="AuthorFileTags.Ian">
     <head><title>IT recovery policy</title>
         <link href="../Resources/TableStyles/msStyle.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../Resources/Stylesheets/xpsStyles.css" rel="stylesheet" type="text/css" />&#160;</head>
@@ -29,38 +29,33 @@
             </tbody>
         </table>
         <h2 MadCap:autonum="1.1 "> Purpose</h2>
-        <p>The purpose of this standard is to enable the recovery of critical XPS services in a timely manner to minimise the effect of IT disruptions and to maintain resilience before, during, and after a disruption.</p>
+        <p>The purpose of this Policy is to enable the recovery of critical XPS services in a timely manner to minimise the effect of IT disruptions and to maintain resilience before, during, and after a disruption.</p>
         <h2 MadCap:autonum="1.2 "> Scope</h2>
-        <p>This Policy applies to all XPS IT systems including, IT systems (servers, operating systems, databases etc.), network devices (routers, switches etc.) and End User Computing Hardware (e.g. desktops), used to support and deliver XPS business applications and services.</p>
+        <p>This Policy applies to all XPS IT systems including, IT systems (servers, operating systems, databases etc.), network devices (routers, switches, etc.) and End User Computing Hardware (e.g. desktops), used to support and deliver XPS business applications and services.</p>
         <h2 MadCap:autonum="1.3 ">Controls</h2>
         <h3 MadCap:autonum="1.3.1 &#160;">Business impact assessment</h3>
-        <p>XPS must perform a Business Impact Analysis ("BIA") at least on an annual basis, to define the business requirements for business application recoverability.</p>
+        <p>XPS shall perform an annual Business Impact Assessment  to define the business requirements for business application recoverability.</p>
         <h3 MadCap:autonum="1.3.2 &#160;">IT recovery plan</h3>
-        <ol style="list-style-type: lower-alpha;">
-            <li>Based on the results of the BIA, the XPS&#160;Technical Services Department is responsible for development of an IT recovery plan&#160;(the "Recovery Plan") for the recovery of IT systems under their management following a disruption of IT services or disaster.</li>
-            <li>The recovery plan must allow the efficient recovery of XPS information systems within the predetermined <MadCap:glossaryTerm glossTerm="ISP Glossary.Term25">recovery point objective</MadCap:glossaryTerm> (RPO) and <MadCap:glossaryTerm glossTerm="Glossary.Term16">recovery time objective</MadCap:glossaryTerm> (RTO).</li>
-            <ol style="list-style-type: lower-roman;">
-                <li>Documentation of explicit procedures for restoration of IT resources (e.g., all major services and systems, manual backup process documentation, logistics and action plans).</li>
-                <li>Description of how to execute the recovery processes, including how to deploy the recovery teams and monitor the recovery (ensuring recovery requirements are met). Recovery timelines and schedules must be also included.</li>
-                <li>Steps to fall back to production environment when DR is no longer required. A fall back timeline and schedule must be also included.</li>
-            </ol>
-            <li>The recovery plan must employ appropriate recovery strategies to restore business functions in the required time following any disruption of service or disaster through an appropriate  combination of IT process workaround procedures, technical redundancy, and IT recovery planning. The plan must include:<ol style="list-style-type: lower-roman;"><li>Business applications recovery requirements (RTO / RPO for each application).</li><li>A list of all IT assets (Hardware and Software) required for delivery operation of each business application.</li><li>IT disruption and disaster declaration criteria necessary to invoke the ITRP.</li><li>Documentation of all IT personnel, backup systems, resources and assets necessary for recovery.</li><li>Documentation of the DR site, such as the information about interfaces with the production site, IT architecture diagrams and IT Asset Inventories.</li><li>Documentation of all roles, responsibilities, and agreements regarding actions during execution of the plan including internal personnel or any external party agreements. The ITRP must identify the role(s) which have the authority to enact the ITRP.</li><li>Detailed recovery procedures that list the individual steps to restore IT resources.</li></ol></li>
-            <li>The Technical Services Department must ensure that the Recovery Plan is stored securely and backups must be stored at the recovery plan site.</li>
-            <li>The Technical Services Department must ensure all copies of the Recovery Plan are distributed appropriately when plans are updated.</li>
-            <li>The Recovery Plan must be reviewed and updated if appropriate, post testing or any major outage where recovery process</li>
+        <ol>
+            <li>Based on the results of the Business Impace Assessment,  the &#160;Technical Services Department is responsible for development of an IT Recovery Plan ("ITRP") for the recovery of IT systems following a disruption of IT services or a disaster.</li>
+            <li>The ITRP should provide for the efficient recovery of XPS information systems within the predetermined <MadCap:glossaryTerm glossTerm="ISP Glossary.Term25">recovery point objective</MadCap:glossaryTerm> (RPO) and <MadCap:glossaryTerm glossTerm="Glossary.Term16">recovery time objective</MadCap:glossaryTerm> (RTO).</li>
+            <li>The ITRP shall employ appropriate recovery strategies to restore business functions in the required time following any disruption of service or disaster through an appropriate  combination of IT process workaround procedures, technical redundancy, and IT recovery planning. </li>
+            <li>&#160;The ITRP shall include:<ol style="list-style-type: lower-alpha;"><li>Business applications recovery requirements (i.e. RPO and RTO for each businss application).</li><li>A list of all <MadCap:glossaryTerm glossTerm="ISP Glossary.Term41">IT assets</MadCap:glossaryTerm> required for the delivery of each business application.</li><li>Documentation of all IT personnel, backup systems, resources and assets necessary for recovery.</li><li>Documentation of the DR-site, such as the information about interfaces with the production site, IT architecture diagrams and IT Asset Inventories.</li><li>Documentation of all roles, responsibilities, and agreements regarding actions during execution of the plan including internal personnel or any external party agreements. </li><li>Detailed recovery procedures that list the individual steps to restore IT resources.</li><li>Documentation of explicit procedures for restoration of IT resources (e.g., all major services and systems, manual backup process documentation, logistics and action plans).</li><li>Steps to fall-back to production environment when DR-Site is no longer required (including a fall-back timeline and schedule).</li></ol></li>
+            <li>The Technical Services Department shall ensure that the ITRP is re-distributed  each time the plan is updated.</li>
+            <li>The ITRP shall be reviewed and updated where necessary (e.g. followimh any major outage where the recovery process was deemed inadequate, weak or where timeframe issues were identified).</li>
         </ol>
-        <h3 MadCap:autonum="1.3.3 &#160;">IT recovery plan maintenance</h3>
-        <ol style="list-style-type: lower-alpha;">
-            <li>The Recovery Plan must be reviewed annually or when a significant change occurs in the XPS IT operating environment or IT architecture.</li>
-            <li>The Recovery Plan must be tested on an annual basis to ensure its operational capability, efficiency and appropriateness. An annual Recovery Plan test plan must be documented indicating:<ul><li>Type and scope of test (e.g., complete loss of the data centre, loss of specific applications).</li><li>Test objectives including the RTOs and RPOs to be achieved for the applications in scope.</li><li>Detailed testing schedule.</li><li>Roles and responsibilities for involved Departments and external stakeholders.</li><li>Notification of relevant contacts such as Departments, vendors and other third parties.</li></ul></li>
-            <li>On completion of the test, there are reporting and other tasks that must be performed:<ul><li>Validate if objectives and success criteria have been met.</li><li>Determine what systems or processes failed and require a retest.</li><li>Create a Test Results Report to document the timelines and results, including lessons learnt and action items.
-</li><li>Update recovery plans as necessary and follow through on action items.</li></ul></li>
+        <h3 MadCap:autonum="1.3.3 &#160;">ITRP maintenance</h3>
+        <ol>
+            <li>The ITRP should be reviewed annually or following any significant change  in the XPS IT operating environment or IT architecture.</li>
+            <li>The ITRP should be tested on an annual basis to ensure its operational capability, efficiency and appropriateness. An annual Recovery Plan Test plan should be documented and include:<ol style="list-style-type: lower-alpha;"><li>The type and scope of test (e.g., complete loss of the data centre, loss of specific applications).</li><li>Test objectives including the RTOs and RPOs to be achieved for the applications in scope.</li><li>A detailed testing schedule.</li><li>Roles and responsibilities for involved Departments and external stakeholders.</li><li>Notification of relevant contacts such as Departments, vendors and other third parties.</li></ol></li>
+            <li>Upon test completion, the following additional tasks should be performed:<ol style="list-style-type: lower-alpha;"><li>Validate whether objectives and success criteria have been met.</li><li>Determine what systems or processes failed and require a re-test.</li><li>Create a <i>Test Results Report</i> to document the time-lines and results, including lessons learnt and action items.
+</li><li>Update recovery plans as necessary and follow through on action items.</li></ol></li>
         </ol>
         <h2 MadCap:autonum="1.4 ">Control exceptions</h2>
         <p>Policy exceptions must be formally documented and presented for review and sign-off by the Information Security Manager. All such exceptions are valid for a period of no longer than one year, upon which they will be subject to further review and formal acceptance.</p>
-        <h2 MadCap:autonum="1.5 ">Policy enforcement</h2>
-        <p>Violation of this policy may result in the termination of access and/or disciplinary action which may include termination for XPS employees, contractors and third party contracts and may result in further legal or criminal action.</p>
-        <h2 MadCap:autonum="1.6 ">Poicy review, approval and history</h2>
+        <h2 MadCap:autonum="1.5 ">Enforcement</h2>
+        <p>Violation of this policy may result in the termination of access and disciplinary action which may include termination for XPS employees, contractors and third party contracts and may result in further legal or criminal action.</p>
+        <h2 MadCap:autonum="1.6 ">Policy review, approval and history</h2>
         <p>This section details the initial review, approval and ongoing revision history of this Policy. A review of this Policy will be managed by the Responsible Officer on an annual basis.</p>
         <p style="font-family: Calibri;">&#160;</p>
         <table style="mc-table-style: url('../Resources/TableStyles/msStyle.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-msStyle" cellspacing="0">
@@ -91,7 +86,7 @@
                 </tr>
                 <tr class="TableStyle-msStyle-Body-Body1">
                     <td class="TableStyle-msStyle-BodyE-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">Parent Policy</td>
-                    <td class="TableStyle-msStyle-BodyD-Column1-Body1" style="font-family: Calibri;font-size: 11pt;"> Nil</td>
+                    <td class="TableStyle-msStyle-BodyD-Column1-Body1" style="font-family: Calibri;font-size: 11pt;"> <MadCap:xref href="xnISP.htm">" XPS Information Security Program" on page&#160;1</MadCap:xref></td>
                 </tr>
                 <tr class="TableStyle-msStyle-Body-Body1">
                     <td class="TableStyle-msStyle-BodyE-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">Supporting Documents</td>
@@ -99,7 +94,9 @@
                 </tr>
                 <tr class="TableStyle-msStyle-Body-Body1">
                     <td class="TableStyle-msStyle-BodyE-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">Related Documents</td>
-                    <td class="TableStyle-msStyle-BodyD-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">Nil</td>
+                    <td class="TableStyle-msStyle-BodyD-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">
+                        <MadCap:xref href="Data backup.htm">"Data backup policy" on page&#160;1</MadCap:xref>
+                    </td>
                 </tr>
                 <tr class="TableStyle-msStyle-Body-Body1">
                     <td class="TableStyle-msStyle-BodyB-Column1-Body1" style="font-family: Calibri;font-size: 11pt;">Superseded Documents</td>

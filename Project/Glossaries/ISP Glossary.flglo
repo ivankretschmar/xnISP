@@ -313,11 +313,14 @@ ongoing use.  The Asset may no longer operate and repairs are not cost-effective
       Link="">Stealing information to subvert the interests of a corporation or government entity</Definition>
   </GlossaryEntry>
   <GlossaryEntry
-    glossTerm="ISP Glossary.Term35">
+    glossTerm="ISP Glossary.Term35"
+    Stem=""
+    IgnoreCase="false">
     <Terms>
       <Term>SIEM</Term>
     </Terms>
-    <Definition>Security Event and Incident Management</Definition>
+    <Definition
+      Link="">Security Information and Event Management.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="ISP Glossary.Term36"

@@ -14,7 +14,7 @@
     Link="/Content/xnPOS P&amp;P Topics/policyCopyright.htm"
     BreakType="pageLayout"
     StartSection="false"
-    PageLayout="/Content/Resources/PageLayouts/xpsA4/xpsCopyrightA4.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/xnPOS P&amp;P Topics/policyTOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
@@ -165,10 +165,33 @@
     SectionNumberReset="continue"
     PageNumber="(multiple)" />
   <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/xnPOS P&amp;P Topics/policyAppendixA.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl"
+    PageType="normal"
+    ChapterName="Appendix A"
+    PageNumberReset="continue"
+    ChapterNumber="1"
+    ChapterNumberFormat="upper-alpha"
+    ChapterNumberReset="reset"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/xnPOS P&amp;P Topics/policyAppendixB.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4.flpgl"
+    PageType="normal"
+    ChapterName="Appendix B"
+    PageNumberReset="continue" />
+  <TocEntry
     Title="Glossary"
     Link="/Content/xnPOS P&amp;P Topics/policyGlossary.htm"
     BreakType="pageLayout"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/xpsA4/xpsGlossaryA4.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/xpsPolicyA4/xpsPolicyA4Mission.flpgl" />
 </CatapultToc>
