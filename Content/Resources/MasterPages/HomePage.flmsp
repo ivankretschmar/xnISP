@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="191" MadCap:lastWidth="645">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="136" MadCap:lastWidth="1279">
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="" />
@@ -11,14 +11,12 @@
             <MadCap:bodyProxy />
             <div class="footer center">
                 <div class="HomeMasterPageFooter outer-row">
-                    <div><a href="../../Home.htm"><img src="../Images/CompanyLogo.png" alttext="" class="Hyperlinked footer-logo" /></a>
-                    </div>
                     <div>
-                        <div class="footer-links"><a href="../../D_More Information/PDF Downloads.htm">PDFs</a><a href="../../D_More Information/Tips.htm">Tips</a><a href="../../D_More Information/FAQs.htm">FAQs</a><a href="../../D_More Information/Company Information.htm">Company</a>
+                        <div class="footer-links"><a href="../../D_More Information/PDF Downloads.htm">PDFs</a><a href="../../D_More Information/Tips.htm">Tips</a><a href="../../D_More Information/FAQs.htm">FAQs</a><a href="http://www.xnprotel.com/" target="_blank">Company</a>
                         </div>
                         <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="Other.CompanyName" /></p>
                     </div>
-                    <div class="footer-icons"><a href="https://twitter.com/#!/MadCapDocTeam" target="_blank"><img src="../Images/TwitterIcon.png" alttext="" class="Hyperlinked" /></a><a href="http://www.facebook.com/madcapdocteam" target="_blank"><img src="../Images/FacebookIcon.png" alttext="" class="Hyperlinked" /></a>
+                    <div class="footer-icons"><a href="https://twitter.com/xnprotel" target="_blank"><img src="../Images/TwitterIcon.png" alttext="" class="Hyperlinked" style="width: 44px;height: 44px;" /></a><a href="https://www.facebook.com/xnprotel/" target="_blank"><img src="../Images/FacebookIcon.png" alttext="" class="Hyperlinked" style="width: 43px;height: 43px;" /></a>
                     </div>
                 </div>
             </div>

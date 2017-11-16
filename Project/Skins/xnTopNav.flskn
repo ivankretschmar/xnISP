@@ -59,7 +59,7 @@
         Name="Search Input">
         <Properties>
           <Property
-            Name="BackgroundColor">#ffffff</Property>
+            Name="BackgroundColor">#f5f5f5</Property>
         </Properties>
       </Style>
       <Style
