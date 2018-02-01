@@ -16,8 +16,7 @@
   MasterToc="/Project/TOCs/xpsHTML5Outputs.fltoc"
   FaviconSkin="/Project/Skins/xnHtml5 Favicon.flskn"
   conditions="General.Online"
-  MasterStylesheet="/Content/Resources/Stylesheets/StylesForHomePage.css"
-  OutputFolder="C:\Users\ivank_000\Dropbox (XN Protel)\Technical Services\xnISPhtmlOut">
+  MasterStylesheet="/Content/Resources/Stylesheets/StylesForHomePage.css">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
