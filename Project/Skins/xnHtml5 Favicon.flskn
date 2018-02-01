@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="2"
+  SkinType="Component"
+  Comment="HTML5 Favicon skin"
+  ComponentType="Favicon">
+  <Stylesheet>
+    <Resources>
+      <Resource
+        Name="Favicon.png">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</Resource>
+    </Resources>
+  </Stylesheet>
+  <Master
+    Image="Favicon.png" />
+  <Browser>
+    <SmallFavicon
+      Image="Favicon.png"
+      SizePx="38 px" />
+    <MediumFavicon
+      Image="Favicon.png"
+      SizePx="38 px" />
+    <LargeFavicon
+      Image="Favicon.png"
+      SizePx="38 px" />
+  </Browser>
+  <ShortcutIcon
+    Image="Favicon.png" />
+  <Touch>
+    <TouchIcon
+      Image="(none)"
+      SizePx="" />
+  </Touch>
+  <Windows>
+    <MicrosoftSmallTile
+      Image="(none)" />
+    <MicrosoftMediumTile
+      Image="(none)" />
+    <MicrosoftWideTile
+      Image="(none)" />
+    <MicrosoftLargeTile
+      Image="(none)" />
+  </Windows>
+  <Strings />
+</CatapultSkin>

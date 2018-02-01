@@ -13,7 +13,11 @@
   Skin="/Project/Skins/xnTopNav.flskn"
   ConditionTagExpression="include[General.Online]exclude[General.PDF]"
   DefaultUrl="/Content/xpsHome.htm"
-  MasterToc="/Project/TOCs/xpsHTML5Outputs.fltoc">
+  MasterToc="/Project/TOCs/xpsHTML5Outputs.fltoc"
+  FaviconSkin="/Project/Skins/xnHtml5 Favicon.flskn"
+  conditions="General.Online"
+  MasterStylesheet="/Content/Resources/Stylesheets/StylesForHomePage.css"
+  OutputFolder="C:\Users\ivank_000\Dropbox (XN Protel)\Technical Services\xnISPhtmlOut">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
