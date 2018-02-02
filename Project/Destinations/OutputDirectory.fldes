@@ -7,10 +7,11 @@
   Password=""
   Directory="C:\Users\ivank_000\Dropbox (XN Protel)\Technical Services\xnISP\Output\ivank_000\xpsHTML5 Top Navigation"
   Port=""
-  ViewUrl="http://www.madcapsoftware.com/"
+  ViewUrl="http://CustomerAssist.xnhotelsystems.net"
   Type="scm"
   UploadLogFile="false"
   ProviderType="Git"
   Database="file:///C:/Users/ivank_000/Dropbox (XN Protel)/Technical Services/xnISP/.git"
   DatabaseRoot="file:///C:/Users/ivank_000/Dropbox (XN Protel)/Technical Services/xnISP/Output/ivank_000/xpsHTML5 Top Navigation"
-  PushToRemote="true"></CatapultDestination>
+  PushToRemote="true"
+  RemoteRepository="origin"></CatapultDestination>
