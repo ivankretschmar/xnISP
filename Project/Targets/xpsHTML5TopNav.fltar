@@ -25,6 +25,6 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/OutputDirectory.fldes" />
+      Link="/Project/Destinations/GitHub.fldes" />
   </Destinations>
 </CatapultTarget>

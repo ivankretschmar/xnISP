@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host="waws-prod-dm1-025.ftp.azurewebsites.windows.net"
+  User="MyAccountId"
+  Password=""
+  Directory="/"
+  Port="21"
+  ViewUrl="http://www.madcapsoftware.com/"
+  Type="scm"
+  UploadLogFile="true"
+  ConnectionMode="Active"
+  AnonymousLogin="false"
+  RemoveStale="true"
+  ChangedOnly="true"
+  SftpServerValidation="validation-none"
+  SftpAuthentication="authentication-password"
+  ProviderType="Git"
+  Database=".\.git"
+  DatabaseRoot="file:///"
+  PushToRemote="true"
+  RemoteRepository="origin"></CatapultDestination>
