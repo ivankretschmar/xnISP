@@ -13,7 +13,7 @@
   ProviderType="Git"
   Database="file:///C:/Users/ivank_000/Dropbox (XN Protel)/Technical Services/xnISP/.git"
   DatabaseRoot="file:///C:/Users/ivank_000/Dropbox (XN Protel)/Technical Services/xnISP/Output/ivank_000/xpsHTML5 Top Navigation"
-  PushToRemote="true"
+  PushToRemote="false"
   RemoteRepository="origin"
   RemoveStale="false"
   ChangedOnly="false"></CatapultDestination>
